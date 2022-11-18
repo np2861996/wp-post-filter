@@ -1,0 +1,12 @@
+.how-works-sec1 ul, .how-works-sec2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.how-works-sec1 ul li,.how-works-sec2 ul li {
+    flex-wrap: wrap;
+    width: 30%;
+    border: 1px dotted #808080;
+    padding: 10px;
+    text-align: center;
+}

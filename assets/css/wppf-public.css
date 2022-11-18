@@ -1,0 +1,133 @@
+/************************************************************
+				Box Sizing
+************************************************************/
+.wppf-column, .wppf-columns {-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+.wppf-post-grid-main *{outline: none !important; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box;}
+
+/************************************************************
+				Clearfix
+************************************************************/
+.wppf-clearfix:before, .wppf-clearfix:after{content: "";display: table;}
+.wppf-clearfix::after{clear: both;}
+.wppf-clearfix{clear: both;}
+.clearboth{clear: both;}
+.wppf-first{clear:both !important;}
+
+/***************************************************************
+				Some common css
+***************************************************************/
+.wppf-filtr-container {background-color: #ffffff !important;padding: 10px 0;}
+.wppf-post-content{padding-top:10px;}
+.wppf-post-grid{margin-bottom:30px; }
+.wppf-post-date span{font-style:italic; font-size:12px;}
+.wppf-post-date img, .wppf-post-tags img{display:inline-block !important; box-shadow:none !important;}
+.wppf-cat-list li ul{margin-left: 0.857143rem;}
+.wppf-cat-list .current-cat > a{font-weight:bold;}
+.wppf-post-date span{font-size:12px;display: inline-block; margin-right:10px;}
+.wppf-post-date span img, .wppf-post-tags img{margin-right:5px; position:relative;vertical-align: middle;}
+.wppf-post-date a{color:#555}
+.wppf-post-title a{text-decoration:none !important; border-bottom:0px !important;}
+.wppf-post-tags a { font-style: italic; text-decoration: none; font-size: 14px;  color: #666;}
+.wppf-post-grid-main h2{margin:5px 0 !important; line-height:24px !important; padding-top:0px !important;font-size:20px !important;  padding-bottom:0px !important;}
+.wppf-post-grid-main h2.wppf-post-title a{font-size:20px !important;line-height:normal !important; color:#444; }
+
+.wppf-post-image-bg{text-align:center; margin-bottom:15px;}
+.wppf-post-image-bg img{display:inline-block;}
+.wppf-image-fit .wppf-post-image-bg img {height: 100%;width: 100% !important;object-fit: cover;object-position: top center;}
+.wppf-post-filter .wppf-columns {padding-top: 20px;}
+
+/*************************************************************
+				Main grid Margin
+****************************************************************/
+.wppf-post-grid-main {margin:0 -15px;}
+
+/****************************************************************
+				Pagination CSS
+*****************************************************************/
+
+.wppf-post-pagination{clear:both !important; width:100%; padding:0px 15px 10px 15px;box-sizing: border-box; text-align:center;}
+.wppf-post-pagination .button-post-p{width:40%; float:right; text-align:right;}
+.wppf-post-pagination .button-post-n{width:40%; float:left; text-align:left;}
+.wppf-post-pagination a, .wppf-post-pagination a{color: #fff !important;  -moz-transition:all 0.5s ease-out 0s;-ms-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s;background: #333;padding: 7px 10px;display: inline-block;text-align: center;border-radius: 0px;line-height: normal;
+box-shadow: none;text-shadow: none;font-size: 14px;text-transform: uppercase;border: 1px solid #333;text-decoration: none !important;}
+.wppf-post-pagination a:hover, .wppf-post-pagination a:focus, .wppf-post-pagination a:hover, .wppf-post-pagination a:focus{color: #333 !important;background: transparent;}
+.wppf-post-pagination .current{color: #333 !important;background: transparent;padding: 7px 10px;display: inline-block;text-align: center;border-radius: 0px;line-height: normal;box-shadow: none;text-shadow: none;font-size: 14px;text-transform: uppercase;border: 1px solid #333;text-decoration: none !important;}
+
+/****************************************************************
+				Categories CSS
+*****************************************************************/
+
+.wppf-post-categories{padding: 0;display: inline-block;text-transform: uppercase;color: #666;z-index: 9;position: relative;}
+.wppf-post-categories a{text-decoration: none ;  -moz-transition:all 0.5s ease-out 0s;-ms-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; font-size:10px;text-transform: uppercase;padding: 3px 8px;color: #000 !important;line-height: normal;display: inline-block; margin: 0 0 2px 0;}
+.wppf-post-categories a:hover, .wppf-post-categories a:focus{color: #fff; text-decoration:none;}
+
+/**************************************************************
+						Read more link wppf-design
+******************************************************************/
+.readmorebtn{ -moz-transition:all 0.5s ease-out 0s;-ms-transition:all 0.5s ease-out 0s;-o-transition:all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s;text-decoration: none !important; color: #888;border: 1px solid #888;padding: 4px 12px;font-size: 12px;display: inline-block;box-sizing: border-box;line-height: normal !important;margin:15px 0 0 0px;}
+.readmorebtn:hover, .readmorebtn:focus, .readmorebtn:active{background:#888; color:#fff; }
+
+/***************************************************************
+					Grid wppf-designs
+***************************************************************/
+
+/******************Grid wppf-design-1********************/
+.wppf-post-grid-main.wppf-design-1 .wppf-post-grid-content{background:#fff; text-align:center; }
+.wppf-post-grid-main.wppf-design-1 .wppf-post-grid-content .wppf-post-title, 
+.wppf-post-grid-main.wppf-design-1 .wppf-post-grid-content .wppf-post-date {padding:5px 15px;float: none; display:block;}
+.wppf-post-grid-main.wppf-design-1 .wppf-post-image-bg{background: #f1f1f1; margin-bottom:20px; line-height: 0; overflow: hidden; position: relative; width: 100%;}
+.wppf-post-grid-main.wppf-design-1 .readmorebtn{border:0px; border-bottom:1px solid #888; font-size:15px;}
+.wppf-post-grid-main.wppf-design-1 .wppf-post-content{padding-bottom:0px;}
+.wppf-post-grid-main.wppf-design-1.wppf-image-fit .wppf-post-image-bg{height: 320px;}
+.wppf-post-grid-main.wppf-design-1.wppf-image-fit .wppf-medium-4 .wppf-post-image-bg{height: 200px;}
+.wppf-post-grid-main.wppf-design-1.wppf-image-fit .wppf-medium-3 .wppf-post-image-bg{height: 180px;}
+
+/******************Grid wppf-design-2********************/
+.wppf-post-grid-main.wppf-design-2 .wppf-post-grid-content{background:#fff; padding-bottom:10px;   border-bottom:2px solid #555;}
+.wppf-post-grid-main.wppf-design-2 .wppf-content-above-image{position:relative; margin-top:-50px; width:85%; background:#fff; padding:20px 0px 5px 0px; }
+.wppf-post-grid-main.wppf-design-2 .no-thumb-image .wppf-content-above-image{margin-top:0px; width:100%; padding-top:0px;}
+.wppf-post-grid-main.wppf-design-2 .wppf-post-grid-content .wppf-post-title, 
+.wppfu-post-grid-main.wppf-design-2 .wppf-post-grid-content .wppf-post-date {padding:5px 0px;float: none; display:block;}
+.wppf-post-grid-main.wppf-design-2 .wppf-post-grid-content .wppf-post-content{padding:15px 0 0px 0;}
+.wppf-post-grid-main.wppf-design-2 .wppf-post-image-bg{background: #f1f1f1; margin-bottom:20px; line-height: 0; overflow: hidden; position: relative; width: 100%;}
+.wppf-post-grid-main.wppf-design-2.wppf-image-fit .wppf-post-image-bg{height: 320px;}
+.wppf-post-grid-main.wppf-design-2.wppf-image-fit .wppf-medium-4 .wppf-post-image-bg{height: 200px;}
+.wppf-post-grid-main.wppf-design-2.wppf-image-fit .wppf-medium-3 .wppf-post-image-bg{height: 180px;}
+
+
+/**************************************************************
+				Filter shortcode css
+**************************************************************/
+.wppf-filter{list-style: none !important;text-align: center;}
+.wppf-filter li a{text-decoration:none; font-size: 15px;  display: block; position: relative; cursor: pointer; color: #000; background: #e1e1e1; padding: 8px 15px; line-height: normal;}
+.wppf-filter li {display: inline-block; float: none; position: relative;text-indent: 0; margin: 0px 0px 4px 0px !important;}
+.wppf-filter li.wppf-active-filtr a{background:#525252; color: #fff;}
+
+/**************************************************************
+				Grid CSS
+**************************************************************/
+.wppf-column,
+.wppf-columns {  padding-left: 0.9375em;  padding-right: 0.9375em;  width: 100%;  float: left; position: relative;  }
+
+@media only screen and (max-width:480px) { 
+.wppf-column,
+.wppf-columns {  padding-left: 0.9375em;  padding-right: 0.9375em;  width: 100%;  float: left; position: relative;  }
+}
+
+@media only screen and (min-width: 40.0625em) {
+	.wppf-column,
+	.wppf-columns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em;float: left; }
+	.wppf-medium-1{width: 8.33333%;}
+	.wppf-medium-2{width: 16.66667%;}
+	.wppf-medium-3{width: 25%;}
+	.wppf-medium-4{width: 33.33333%;}
+	.wppf-medium-5{width: 41.66667%;}
+	.wppf-medium-6{width: 50%;}
+	.wppf-medium-7{width: 58.33333%;}
+	.wppf-medium-8{width: 66.66667%;}
+	.wppf-medium-9{width: 75%;}
+	.wppf-medium-10{width: 83.33333%;}
+	.wppf-medium-11{width: 91.66667%;}
+	.wppf-medium-12{width: 100%;}
+	.wppf-medium-c5{width: 20%;}
+}
